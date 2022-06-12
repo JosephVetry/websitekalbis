@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html"><img class="logokalbis" src="logo.png" alt="Kalbis Institute" title="Kalbis Institute"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#profile">PROFILE</a></li>
+                <li><a href="#information">INFORMATION</a></li>
+                <li><a href="#mahasiswa">MAHASISWA</a></li>
+                <li><a href="#tautan">TAUTAN</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+            <div class="iframe-container">
+                <iframe width="900px" height="700px" src="https://www.youtube.com/embed/fuTzb0jtrxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="logo.png" alt="Kalbis Institute" title="Kalbis Institute">
+            <ul>
+                <li><a target="_blank" href="http://goo.gl/maps/2cNWcPPvT3wA8zZQ9">Jl. Pulomas Selatan kav.22</a></li>
+                <li><a target="_blank" href="http://goo.gl/maps/2cNWcPPvT3wA8zZQ9">Jakarta Timur 13210</a></li>
+                <li><a href="tel:+622147883900">Telp. (021) 4788-3900</a></li>
+                <li><a href="fax:+622147883651">Fax. (021) 4788-3651</a></li>
+                <li><a href="mailto:student.service@kalbis.ac.id">student.service@kalbis.ac.id</a></li>
+            </ul>
+            <div class="social">
+                <a href="https://www.facebook.com/kalbisinstitute"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/kalbisinstitute"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/c/KalbisInstituteOfficial"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.instagram.com/kalbisinstitute/"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Profile</h2>
+
+                <ul class="box">
+                    <li><a href="#">Visi Misi</a></li>
+                    <li><a href="#">Struktur Organisasi</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Tautan</h2>
+
+                <ul>
+                    <li><a href="#">Kalender Akademik</a></li>
+                    <li><a href="#">Formulir</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer-bottom">
+            <p>©Created by Joseph Vetry</p>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $(".menu-toggle").click(function() {
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+</body>
+
+</html>
